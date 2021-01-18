@@ -44,7 +44,7 @@
         -名称：运行号码2
           env：
            haoma：$ {{ secrets.HAOMA2 }}
-           mm：$ {{secrets.MM}}
+           mm：$ {{secrets.MM2}}
            appid：$ {{secrets.APPID}}
           运行：|
            bash CnUnicom.sh
@@ -52,39 +52,9 @@
         -名称：运行号码3
           env：
            haoma：$ {{ secrets.HAOMA3 }}
-           mm：$ {{secrets.MM}}
+           mm：$ {{secrets.MM3}}
            appid：$ {{secrets.APPID}}
           运行：|
            bash CnUnicom.sh
            
-        -名称：运行号码4
-          env：
-           haoma：$ {{ secrets.HAOMA4 }}
-           mm：$ {{secrets.MM}}
-           appid：$ {{secrets.APPID}}
-          运行：|
-           bash CnUnicom.sh
-           
-        -名称：运行号码5
-          env：
-           haoma：$ {{ secrets.HAOMA5 }}
-           mm：$ {{secrets.MM}}
-           appid：$ {{secrets.APPID}}
-          运行：|
-           bash CnUnicom.sh
-           
-        -名称：运行号码6
-          env：
-           haoma：$ {{ secrets.HAOMA6 }}
-           mm：$ {{secrets.MM}}
-           appid：$ {{secrets.APPID}}
-          运行：|
-           bash CnUnicom.sh
-           
-        -名称：运行号码7
-          env：
-           haoma：$ {{ secrets.HAOMA7 }}
-           mm：$ {{secrets.MM2}}
-           appid：$ {{secrets.APPID}}
-          运行：|
-           bash CnUnicom.sh
+
